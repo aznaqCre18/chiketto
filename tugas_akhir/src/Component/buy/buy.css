@@ -1,0 +1,98 @@
+.buy-modal {
+    position: absolute;
+    right: 15px;
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    background-image: linear-gradient(90deg, #EC7AB7 -0.6%, #EC7A7A 100%);
+    color: white;
+    top: 20px;
+    text-align: center;
+    line-height: 25px;
+    font-family: calibri;
+    cursor: pointer;
+    transition: .2s;
+    user-select: none;
+}
+
+.buy-modal:hover {
+    background-color: #fff;
+    color: rgb(255, 72, 102);
+    border: 2px solid rgb(255, 72, 102);
+    background-image: none;
+    box-sizing: border-box;
+}
+
+.header {
+    font-size: 40px;
+    font-family: calibri;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.header i {
+    font-size: 16px;
+}
+
+.name-train {
+    font-size: 30px;
+    font-family: calibri;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.name-train i {
+    font-size: 16px;
+    
+}
+
+.jalan {
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: calibri;
+    margin-bottom: 40px;
+}
+
+.jalan .jalan-time {
+    font-weight: bold;
+}
+
+.jalan i {
+    font-size: 16px;
+}
+
+.jalan .tujuan {
+    font-weight: bold;
+}
+
+.aku {
+    width: 23px;
+    height: 109px;
+    left: 100px;
+    position: absolute;
+    top: 158px;
+}
+
+.buyBut {
+    width: 70px;
+    height: 30px;
+    background-image: linear-gradient(90deg, #EC7AB7 -0.6%, #EC7A7A 100%);
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: right;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.buyBut:hover {
+    background-image: none;
+    border: 1px solid rgb(253, 103, 128);
+    color: rgb(253, 103, 128);
+}

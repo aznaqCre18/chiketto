@@ -1,0 +1,221 @@
+.title-tiket {
+    font-size: 40px;
+    position: absolute;
+    top: 130px;
+    left: 140px;
+    font-family: calibri;
+}
+
+.containersau {
+    width: 900px;
+    height: 400px;
+    border: 1px solid #B7B7B7;;
+    border-radius: 7px;
+    position: relative;
+    top: 200px;
+    left: 230px;
+    font-family: calibri;
+    margin-bottom: 40px;
+}
+
+.headerku {
+    font-size: 25px;
+    background-image: linear-gradient(180deg, #EC7A7A 0%, #EC7AB7 100%);
+    width: 250px;
+    height: 40px;
+    margin-left: 0px;
+    padding-left: 15px;
+    line-height: 45px;
+    color: honeydew;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 5px;
+}
+
+.kop {
+    /* color: black; */
+    float: right;
+    margin-top: -25px;
+    margin-right: 10px;
+}
+
+.kop h1 {
+    font-size: 40px;
+    margin-right: -20px;
+}
+
+.kop h3 i {
+    font-weight: bold;
+} 
+
+.keretainv {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.keretainv h1 {
+    font-size: 30px;
+}
+
+.keretainv h3 {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.keretainv .pending1 {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: rgba(255, 51, 0, 0.657);
+    font-size: 15px;
+    color: rgb(78, 0, 0);
+    border-radius: 5px;
+    line-height: 20px;
+    padding-left: 22px;
+    top: 150px;
+}
+
+.keretainv .appr {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: rgba(101, 255, 101, 0.493);
+    font-size: 15px;
+    color: rgb(35, 209, 0);
+    border-radius: 5px;
+    line-height: 20px;
+    padding-left: 22px;
+    top: 150px;
+}
+
+.garis .bul1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 20, 59);
+    box-sizing: border-box;
+    position: absolute;
+    left: 234px;
+    top: 105px;
+
+}
+
+.garis .bul2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-image: linear-gradient(90deg, #EC7AB7 -0.6%, #EC7A7A 100%);;
+    position: absolute;
+    left: 234px;
+    top: 212px;
+}
+
+.garis hr {
+    width: 80px;
+    transform: rotate(90deg);
+    margin-left: 200px;
+    border: 1px solid grey;
+    margin-top: 25px;
+}
+
+.go2 {
+    position: absolute;
+    left: 260px;
+    top: 90px;
+}
+
+.go2 h1 {
+    font-weight: bold;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.go2 h3 {
+    font-size: 15px;
+    color: grey;
+}
+
+.go3 {
+    position: absolute;
+    left: 260px;
+    top: 197px;
+}
+
+.go3 h1 {
+    font-weight: bold;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.go3 h3 {
+    font-size: 15px;
+    color: grey;
+}
+
+.dest {
+    position: absolute;
+    left: 460px;
+    top: 90px;
+}
+
+.dest h1 {
+    font-weight: bold;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.dest h3 {
+    font-size: 15px;
+    color: grey;
+}
+
+.dest2 {
+    position: absolute;
+    left: 460px;
+    top: 197px;
+}
+
+.dest2 h1 {
+    font-weight: bold;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.dest2 h3 {
+    font-size: 15px;
+    color: grey;
+}
+
+.tab {
+    position: absolute;
+    bottom: -10px;
+    width: 670px;
+}
+
+.tab td {
+    color: rgb(180, 180, 180);
+}
+
+.pay-now {
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    width: 180px;
+    height: 40px;
+    background-image: linear-gradient(90deg, #EC7AB7 -0.6%, #EC7A7A 100%);
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    font-family: Calibri;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    transition: .2s;
+}
+
+.pay-now:hover {
+    box-shadow: 0 0 10px 0 grey;
+    font-weight: normal;
+}

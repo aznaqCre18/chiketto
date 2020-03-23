@@ -1,0 +1,170 @@
+.title-invoice {
+    font-size: 30px;
+    font-family: calibri;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.title-invoice .bold-invoice{   
+    font-weight: bold;
+}
+
+.title-invoice .child-invoice{   
+    font-size: 12px;
+}
+
+.name-trans{
+    font-family: calibri;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.date-go {
+    font-family: calibri;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.img-barcode2 {
+    width: 50px;
+    height: 65px;
+    margin-left: 200px;
+    margin-top: -30px;
+}
+
+.type-train-invoice {
+    margin-left: 20px;
+    font-family: calibri;
+    margin-bottom: 20px;
+}
+
+.type-train-invoice .bold-type {
+    font-size: 17px;
+    font-weight: bold;
+} 
+
+.type-train-invoice .child-type {
+    font-size: 12px;
+} 
+
+.fully {
+    font-family: calibri;
+}
+
+.fully hr {
+    margin-bottom: 100px;
+}
+
+.fully .garis {
+    margin-left: -203px;
+    margin-top: 70px;
+} 
+
+.fully .garis hr {
+    width: 67px;
+}
+
+.fully .garis .bul1 {
+    margin-left: -210px;
+    margin-top: 125px;
+}
+
+.fully .garis .bul2 {
+    margin-left: -210px;
+    margin-top: 107px;
+}
+
+.berangkat3 {
+    width: 200px;
+    position: absolute;
+    bottom: 130px;
+    left: 45px;
+}
+
+.berangkat3 h3 {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.berangkat3 h4 {
+    font-size: 13px;
+    color: #959595;
+}
+
+.fully .berangkat2 {
+    width: 200px;
+    position: absolute;
+    bottom:45px;
+    left: -33px;
+}
+
+.destinate-adm {
+    position: absolute;
+    bottom: 0;
+    bottom: 115px;
+    left: 200px;
+    font-family: calibri;
+}
+
+.destinate-adm h1 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.destinate-adm h3 {
+    font-size: 13px;
+    color: #959595;
+}
+
+.destinate-arv {
+    position: absolute;
+    bottom: 30px;
+    left: 200px;
+}
+
+.destinate-arv h1 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.destinate-arv h3 {
+    font-size: 13px;
+    color: #959595;
+}
+
+.pict-proof {
+    width: 150px;
+    height: 170px;
+    border: 2px solid grey;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    border-radius: 5px;
+}
+
+.kumpulan {
+    position: absolute;
+    top: 385px;
+}
+
+.tabel-invoice-adm {
+    font-family: calibri;
+    font-size: 15px;
+}
+
+.close-invoice {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 10px;
+    right: 10px;
+    transform: rotate(45deg);
+    transition: .3s;
+}
+
+.close-invoice:hover {
+    transform: rotate(315deg);
+    cursor: pointer;
+}

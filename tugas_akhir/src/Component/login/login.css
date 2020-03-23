@@ -1,0 +1,90 @@
+/* .modal-dialog {
+    height: 80% !important;
+    padding-top:10%;
+} */
+
+.modal {
+    box-sizing: border-box;
+}
+
+.modal-content {
+    height: 100% !important;
+    overflow:visible;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.modal-body {
+    height: 80%;
+    overflow: auto;
+    margin: auto;
+    position: relative;
+} 
+.judul {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.username, .pass {
+    width: 350px;
+    height: 50px;
+    /* margin: auto; */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border:none;
+    background-color: #E5E5E5;
+    padding-left: 20px;
+}
+
+.closelog {
+    transform: rotate(315deg);
+    margin-left: 440px;
+    margin-top: 20px;
+    transition: .2s;
+}
+
+.closelog:hover {
+    transform: rotate(-315deg);
+}
+
+.txtModalHeader {
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px
+}
+
+.tombolLogin {
+    margin-left: 77px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+@media (max-width : 700px) {
+    .username, .pass {
+        width: 250px;
+        height: 40px;
+    }
+}
+
+.btn-block {
+    background-image:  linear-gradient(90deg, #EC7AB7 -0.6%, #EC7A7A 100%);
+    color: white;
+    font-weight: bold;
+    font-family: calibri;
+    outline: none;
+    border: none;
+    transition: .2s;
+    box-sizing: border-box;
+}
+
+.btn-block:hover {
+    background-image: none;
+    background-color: white;
+    border: 1px solid tomato;
+    color: rgb(255, 17, 57);
+    box-sizing: border-box;
+}

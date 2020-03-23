@@ -1,0 +1,107 @@
+.add-page {
+    font-family: calibri;
+    margin-top: -10px;
+}
+
+.add-page > h1 {
+    font-size: 35px;
+    padding: 120px;
+    margin-left: -50px;
+}
+
+/* .input-group-text {
+    padding-right: 100px;
+} */
+
+.input-grup {
+    width: 1200px;
+    margin: auto;
+}
+
+.bungkus-form {
+    margin-top: -100px;
+}
+
+/* ///// */
+
+.nameTrain  {
+    width: 200px;
+}
+
+.name-trains .trains {
+    margin-right: 47px !important;
+}
+
+.type-train .type {
+    margin-right: 72px !important;
+}
+
+.hours-go .hours {
+    margin-right: 22px;
+}
+
+.destination-station .destination {
+    margin-right: 53px;
+}
+
+.arrived-hours .arrived {
+    margin-right: 90px;
+}
+
+.tiket-price .price-tik {
+    margin-right: 74px;
+}
+
+.quantity .quant {
+    margin-right: 90px;
+}
+
+.add-tiket {
+    width: 300px;
+    height: 30px;
+    background-color: #0ACF83;
+    float: right;
+    margin-right:82px;
+    line-height: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    transition: .2s;
+    border: none;
+}
+
+.add-tiket:hover {
+    box-shadow: 0 0 5px grey;
+}
+
+.choose-type-trains {
+    width:1025px;
+    border: 1px solid #959595;
+    padding-left: 10px;
+    border-radius: 3px
+}
+
+.choose-type-trains .value-default {
+    color: grey
+}
+
+.okedeh {
+    width: 100px;
+    height: 25px;
+    background-color: #0ACF83;
+    border-radius: 5px;
+    margin: auto;
+    line-height: 25px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.okedeh:hover {
+    box-shadow: 0 0 5px grey;
+}

@@ -1,0 +1,70 @@
+.top-label {
+    position: absolute;
+    left: 0px;
+    width: 150px;
+    height: 30px;
+    background-image: linear-gradient(180deg, #EC7A7A 0%, #EC7AB7 100%);
+    line-height: 30px;
+    padding-left: 20px;
+    font-family: calibri;
+    color: honeydew;
+    border-bottom-right-radius: 80%;
+    border-top-right-radius: 2px;
+}
+
+.label-form-pay {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: segoe ui;
+    font-size: 20px;
+    text-align: center;
+}
+
+.save-set-aprove {
+    margin: auto;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-family: calibri;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: #0ACF83;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.save-set-aprove:hover {
+    box-shadow: 0 0 5px grey;
+}
+
+.close-set-aprove {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    transform: rotate(45deg);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.close-set-aprove:hover {
+    transform: rotate(315deg);
+}
+
+.grup-aprove {
+    font-family: calibri;
+    width: 300px;
+}
+
+.dropdown-confirm {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #CED4DA;
+    background-color: #E9EcEF;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    outline: none;
+}

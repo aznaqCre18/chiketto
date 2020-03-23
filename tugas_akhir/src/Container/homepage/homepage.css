@@ -1,0 +1,751 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    box-shadow: 0 1px 9px 0px grey;
+    position: fixed;
+    z-index: 999;
+}
+
+.title {
+    font-size: 35px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-family: segoe ui;
+    color: #EC7AB7;
+}
+
+.register-modal {
+    position: absolute;
+    right: 150px;
+    width: 80px;
+    height: 35px;
+    background-color: #fff;
+    color: rgb(255, 72, 102);
+    border: 2px solid rgb(255, 72, 102);
+    top: 20px;
+    line-height: 31px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: calibri;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: .2s;
+    user-select: none;
+}
+
+.register-modal:hover {
+    background-image: linear-gradient(90deg, #EC7AB7 -0.6%, #EC7A7A 100%);
+    color: white;
+}
+
+.login-modal {
+    position: absolute;
+    right: 50px;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    background-image: linear-gradient(90deg, #EC7AB7 -0.6%, #EC7A7A 100%);
+    color: white;
+    top: 20px;
+    text-align: center;
+    line-height: 35px;
+    font-family: calibri;
+    cursor: pointer;
+    transition: .2s;
+    user-select: none;
+}
+
+.login-modal:hover {
+    background-color: #fff;
+    color: rgb(255, 72, 102);
+    border: 2px solid rgb(255, 72, 102);
+    background-image: none;
+    box-sizing: border-box;
+    line-height: 31px;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(90deg, #EC7AB7 -0.6%, #EC7A7A 100%);
+    position: absolute;
+    top: 80px;
+
+}
+
+.title-jbt {
+    font-size: 40px;
+    font-family: calibri;
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+
+.slog1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 130px;
+    left: 110px;
+}
+
+.slog2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 150px;
+    left: 110px;
+}
+
+.adv {
+    width: 500px;
+    height: 200px;
+    background-color: #fff;
+    float: right;
+    margin-right: 35px;
+    margin-top: -40px;
+    border-radius: 10px;
+    background-image: url('../../img/carrousell2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+    box-sizing: border-box;
+    box-shadow: 0 1px 9px 0px grey;
+}
+
+.adv2 {
+    width: 500px;
+    height: 200px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    margin-right: 130px;
+    margin-top: -20px;
+    border-radius: 10px;
+    background-image: url('../../img/carrousel1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px 0 grey;
+}
+
+/* filter */
+
+.parrent-filter {
+    width: 1000px;
+    height: 200px;
+    box-shadow: 0 0 10px 0px grey;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 340px;
+    left: 180px;
+    border-radius: 9px;
+    box-sizing: border-box;
+}
+
+.filter-title {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(221, 221, 221);
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+.kategori {
+    width: 200px;
+    height: 45px;
+    background-color: #fff;
+    position: absolute;
+    top: 15px;
+}
+
+.rec {
+    width: 5px;
+    height: 30px;
+    background-color: #E67E22;
+    position: absolute;
+    top: 10px;
+}
+
+.kategori img {
+    width: 35px;
+    height: 35px;
+    margin-top: 7px;
+    margin-left: 30px;
+}
+
+.kategori span {
+    font-family: calibri;
+    line-height: 50px;
+    position: absolute;
+    right: 20px;
+    font-weight: bold;
+    
+}
+
+.filter {
+    position: absolute;
+    left: 210px;
+    top: 10px;
+    font-size: 20px;
+    font-family: arial;
+
+}
+
+.filter p {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.filter .destination {
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(228, 228, 228);
+    font-size: 12px;
+    margin-left: 10px;
+    width: 330px;
+    height: 20px;
+    padding-left: 10px;
+    margin-top: 5px;
+    outline: none;
+}
+
+.input-tujuan {
+    position: relative;
+}
+
+.input-tujuan p {
+    position: absolute;
+    right: -125px;
+    top: -53px;
+}
+
+.input-tujuan input {
+    position: absolute;
+    right: -410px;
+    top: -25px;
+}
+
+.swapIcon {
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(90deg, #EC7AB7 -0.6%, #EC7A7A 100%);
+    border-radius: 50%;
+    position: absolute;
+    right: -60px;
+    top: 42px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.swapIcon:hover {
+    box-shadow: 0 0 5px 0 grey;
+}
+
+.swapIcon img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 8px;
+    top: 7px
+}
+
+/* .child-filter {
+    position: absolute;
+    to
+} */
+
+.tgl {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: calibri;
+    margin-left: 10px;
+    position: absolute;
+    top: 100px;
+}
+
+.date {
+    position: absolute;
+    top: 120px;
+    width: 150px;
+    left: 10px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(228, 228, 228);
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.check {
+    position: absolute;
+    left: 250px;
+    top : 75px
+}
+
+.check label {
+    font-size: 13px;
+    
+}
+
+/* .qty {
+    position: absolute; 
+    right: -125px;
+    bottom: -27px
+} */
+
+.dewasa {
+    position: absolute; 
+    font-size: 15px;
+    font-weight: bold;
+    left: 420px;
+    top: 100px;
+
+}
+
+.child {
+    position: absolute; 
+    font-size: 15px;
+    font-weight: bold;
+    left: 550px;
+    top: 100px;
+}
+
+.countAdult {
+    position: absolute;
+    right: -121px;
+    top: 120px;
+    user-select: none;
+}
+
+.countAdult hr{
+    width: 30px;
+    margin-top: 20px;
+    position: absolute;
+    top: 10px;
+    left: 11px;
+}
+
+
+.countAdult .count {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.countAdult .plus {
+    position: absolute;
+    top: 3px;
+    cursor : pointer;
+    font-size: 30px;
+}
+
+.countAdult .min {
+    cursor : pointer;
+    font-size: 30px;
+
+}
+
+.countAdult2 {
+    position: absolute;
+    right: -239px;
+    top: 120px;
+    user-select: none;
+}
+
+.countAdult2 hr{
+    width: 30px;
+    margin-top: 20px;
+    position: absolute;
+    top: 10px;
+    left: 11px;
+}
+
+.countAdult2 span {
+    font-size: 30px;
+}
+
+.countAdult2 .count {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.countAdult2 .min {
+    cursor : pointer
+}
+
+.countAdult2 .plus {
+    position: absolute;
+    top: 3px;
+    cursor : pointer
+}
+
+.searchTicket {
+    font-size: 15px;
+    position: absolute;
+    right: -400px;
+    bottom: -75px;
+    background-image: linear-gradient(90deg, #EC7AB7 -0.6%, #EC7A7A 100%);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    box-sizing: border-box;
+    transition: .3s;
+    cursor: pointer;
+    user-select: none;
+}
+
+.searchTicket:hover {
+    background-color: #fff;
+    color: #EC7AB7;
+    border: 1px solid #EC7AB7;
+    background-image: none;
+    box-sizing: border-box;
+}
+
+.result-tiket {
+    position: absolute;
+    text-align: center;
+    margin-top: 570px;
+    margin-left: 230px;
+    width: 900px;
+    font-family: calibri;
+}
+
+.berangkat2 h3 {
+    font-size: 17px !important;
+    font-weight: bold !important;
+    margin-top: 12px;
+}
+
+.berangkat h3 {
+    font-weight: bold !important;
+}
+
+.berangkat2 p {
+    font-size: 15px;
+    color: grey;
+}
+
+.hasil {
+    width: 900px;
+    height: 60px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.hasil .kereta {
+    position: absolute;
+    left: 70px;
+}
+
+.kereta h3 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.kereta p {
+    font-size: 15px;
+    color: grey;
+}
+
+.hasil .berangkat2 {
+    position: absolute;
+    left: 150px;
+    margin-top: 0px;
+}
+
+
+.hasil .tiba {
+    position: absolute;
+    left: 400px;
+}
+
+.tiba h3 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.tiba p {
+    font-size: 15px;
+    color: grey;
+}
+
+.hasil .durasi {
+    position: absolute;
+    left: 567px;
+}
+
+.durasi h3 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.hasil .price {
+    position: absolute;
+    right: 85px;
+    color: #EC7AB7;
+    margin-top: 6px;
+}
+
+.price h3 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+/* /////// */
+
+.hasil-sell {
+    width: 900px;
+    height: 60px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.hasil-sell .kereta-sell {
+    position: absolute;
+    left: 70px;
+}
+
+.kereta-sell h3 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.kereta-sell p {
+    font-size: 15px;
+    color: grey;
+}
+
+.hasil-sell .tiba-sell {
+    position: absolute;
+    left: 400px;
+}
+
+.tiba-sell h3 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.tiba-sell p {
+    font-size: 15px;
+    color: grey;
+}
+
+.hasil-sell .durasi-sell {
+    position: absolute;
+    left: 570px;
+    top: 45px;
+}
+
+.durasi-sell h3 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: -32px;
+}
+
+.hasil-sell .price-sell {
+    position: absolute;
+    right: 85px;
+    color: #EC7AB7;
+}
+
+.price-sell h3 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.berangkat-sell {
+    position: absolute;
+    left: 230px;
+    top: 12px;
+}
+
+.berangkat-sell h3 {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.berangkat-sell p {
+    font-size: 15px;
+    color: grey;
+}
+
+/* ///////// */
+.footers {
+    width: 1100px;
+    height: 30px;
+    background-image: linear-gradient(90deg, #EC7AB7 -0.6%, #EC7A7A 100%);
+    margin-left: -100px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.profile {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #EC7A7A;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: -20px;
+    cursor: pointer;
+}
+
+.userName {
+    font-size: 25px;
+    position: absolute;
+    right: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 20, 59);
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    box-sizing: border-box;
+    right: 60px;
+}
+
+.childdrop {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20px;
+    right: -40px;
+    min-width: 200px;
+    border-radius: 5px;
+    font-family: calibri;
+    transition: .6s;
+}
+
+.childdrop p{
+    color: rgb(255, 20, 59);
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    transition: .3s;
+}
+
+.childdrop p:hover {
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dropdown:hover .childdrop {
+    display: block;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 0 grey;
+    transition: .3s;    
+}
+
+.drop p {
+    padding: 20px;
+}
+
+
+/* /////// */
+
+.modal-after-login {
+    text-align: center;
+    font-family: calibri;
+}
+
+.modal-after-login .modal-alert-pay {
+    padding: 20px;
+}
+
+.modal-after-login .modal-alert-pay i {
+    font-weight: bold;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.modal-after-login .modal-alert-pay i:hover {
+    color: salmon;
+    text-decoration: none;
+}
+
+.modal-after-login .modal-alert-pay i:active {
+    text-decoration: none;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,116 @@
+.modal-content {
+    height: 100% !important;
+    overflow: visible;
+    margin: 0 auto;
+    background-color: #fff;
+    font-family: calibri;
+}
+
+.modal-body {
+    height: 80%;
+    overflow: auto;
+    margin: auto;
+    position: relative;
+}
+
+.judul {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.breeder,
+.password,
+.number,
+.namePet,
+.gender,
+.species,   
+.age {
+    width: 350px;
+    height: 50px;
+    /* margin: auto; */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #E5E5E5;
+    padding-left: 20px;
+    color: grey;
+}
+
+.close {
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    transition: .2s;
+}
+
+.close:hover {
+    transform: rotate(315deg);
+    cursor: pointer;
+}
+
+
+.tombolRegister {
+    text-align: auto;
+    margin: auto;
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+@media (max-width : 700px) {
+
+    .breeder,
+    .email,
+    .password,
+    .number,
+    .namePet,
+    .gender,
+    .species,
+    .age,
+    .text-area-address {
+        width: 250px;
+        height: 35px;
+    }
+
+    .tombolRegister {
+        width: 250px;
+        margin-top: 20px;
+    }
+}
+
+.email1 {
+    /* position: absolute; */
+    left: 0;
+    text-align: left;
+    float: left;
+    /* margin-left: 20px; */
+    /* background-color: #fff; */
+    width: 350px;
+    height: 50px;
+    /* margin: auto; */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #E5E5E5;
+    padding-left: 20px;
+}
+
+#grup {
+    background-color: #e5e5e5;
+}
+
+.text-area-address {
+    width: 350px;
+    height: 50px;
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.form-register {
+    margin-left: 60px ;
+}
